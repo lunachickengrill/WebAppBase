@@ -97,7 +97,7 @@ public class ApplicationServlet extends FrameworkServlet {
 		return mapper.writeValueAsString(pojo);
 	}
 
-	@JacksonXmlRootElement(localName="response")
+	@JacksonXmlRootElement(localName="webAppBaseResponse")
 	public static class ResponsePojo {
 
 		@JacksonXmlProperty
